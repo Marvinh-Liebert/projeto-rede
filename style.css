@@ -36,7 +36,26 @@ main{
 #tela{
     position: relative;
     top: 80px;
-    left: 22px;
+    left: 20px;
     height: 472px;
-    width: 268px;
+    width: 270px;
+    
+}
+
+#redes{
+    text-align: right;
+
+}
+
+#redes img{
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.61);
+    box-sizing: border-box;
+}
+
+#redes img:hover{
+    border: 2px solid white;
+    transition: border 1s;
 }
